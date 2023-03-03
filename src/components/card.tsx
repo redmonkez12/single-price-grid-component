@@ -9,7 +9,7 @@ type Props = {
 
 export function Card({ variant, children, text }: Props) {
     return (
-        <div className={clsx("p-6 md:p-10 font-bold flex-1", {
+        <div className={clsx("p-6 md:p-10 font-bold flex-auto", {
             "bg-white rounded-t-[5px]": variant === "white",
             "bg-green": variant === "green",
             "bg-lightGreen": variant === "lightGreen",
